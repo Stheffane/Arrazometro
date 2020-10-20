@@ -1,0 +1,23 @@
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.icon-close {
+  padding-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#delete {
+  margin-right: 10px;
+}
+
+#delete:active {
+  transform: scale(0.8);
+}

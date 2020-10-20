@@ -1,0 +1,6 @@
+.arrazo-group {
+  margin: 15px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

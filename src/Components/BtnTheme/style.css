@@ -1,0 +1,46 @@
+.header-icon {
+  position: absolute;
+  right: 26px;
+  cursor: pointer;
+}
+
+.input-dark-mode {
+  width: auto;
+  opacity: 0;
+}
+
+.icon-theme {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background-image: url("../../assets/icons/ensolarado.svg");
+  background-size: 100%;
+  transition: all 0.2s;
+}
+
+.icon-theme:hover {
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px rgb(74, 103, 106, 0.2));
+  animation: rotate-icon 1.5s linear infinite;
+}
+
+@keyframes rotate-icon {
+  0%,
+  50%,
+  100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+}
+
+/* Dark theme */
+html[dark] .icon-theme {
+  background-image: url("../../assets/icons/lua-nova.svg");
+  background-size: 100%;
+}

@@ -1,0 +1,22 @@
+header {
+  width: 100vw;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 28px;
+  color: #ff7ea3;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+/* Dark Theme */
+html[dark] h1 {
+  color: #E4FE31;
+}

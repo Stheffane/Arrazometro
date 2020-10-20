@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+
+.name {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.poc-arrazando {
+  color: #ffeb6d;
+}
+
+.poc-arrazada {
+  color: #5ae5fb;
+}
+
+/* Dark Theme */
+html[dark] .poc-arrazada {
+  color:#E4FE31;
+}
+
+html[dark] .poc-arrazando {
+  color: #E179E1;
+}

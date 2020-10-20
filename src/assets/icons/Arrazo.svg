@@ -1,0 +1,20 @@
+<svg id="Arrazo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40"
+  viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_23" data-name="Retângulo 23" width="40" height="40" transform="translate(470 243.7)"
+        fill="#fff" stroke="#707070" stroke-width="1" />
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_11" data-name="Grupo de máscara 11" transform="translate(-470 -243.7)"
+    clip-path="url(#clip-path)">
+    <g id="arrazo-2" data-name="arrazo" transform="translate(462.383 291.734)">
+      <path id="Caminho_39" data-name="Caminho 39"
+        d="M23.433-44.428a1.24,1.24,0,0,0-.359.566c-.163.577-.131,18.884.033,19.373a1.179,1.179,0,0,0,1.872.424l.272-.218V-44.091l-.272-.261A1.36,1.36,0,0,0,23.433-44.428Z" />
+      <path id="Caminho_40" data-name="Caminho 40"
+        d="M30.486-44.341l-.337.283v9.817c0,9.817,0,9.817.229,10.068a1.172,1.172,0,0,0,1.785-.011l.272-.327V-43.993l-.316-.316A1.2,1.2,0,0,0,30.486-44.341Z" />
+      <path id="Caminho_41" data-name="Caminho 41"
+        d="M7.858-20.864c-.229.239-.239.316-.239,4.125-.011,4.212.011,4.4.588,4.854a2.63,2.63,0,0,0,.838.337c.773.163,36.33.163,37.1,0a2.476,2.476,0,0,0,.871-.381c.566-.479.6-.729.6-4.865v-3.8l-.3-.261a.9.9,0,0,0-1.252-.011c-.229.25-.239.327-.239,3.091,0,2.438-.022,2.873-.174,3.015s-1.937.174-18.056.174-17.9-.022-18.056-.174-.174-.577-.174-3.026c0-2.841,0-2.862-.25-3.091A.921.921,0,0,0,7.858-20.864Z" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: rgb(255, 204, 182, 0.7);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-form {
+  width: 830px;
+  margin-right: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-cadastrar {
+  width: 210px;
+  height: 45px;
+  outline: none;
+  background-color: #fffbeb;
+  border: 1px solid #ffb357;
+  border-radius: 5px;
+  color: #ffb357;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.btn-cadastrar::before {
+  content: "add logo a poc";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffb357;
+  color: #ffffff;
+  z-index: 1;
+  transform: translateY(-100%);
+  transition: all 0.5s;
+}
+
+.btn-cadastrar:hover::before {
+  transform: translateY(0);
+}
+
+/* Dark theme */
+html[dark] footer {
+  background-color: #484848;
+  border-top: 1px solid #CBAACB;
+}
+
+html[dark] .btn-cadastrar {
+  background-color: transparent;
+  border: 1px solid #E179E1;
+  color: #E179E1;
+}
+
+html[dark] .btn-cadastrar::before {
+  background: #E179E1;
+  color: #ffffff;
+}
