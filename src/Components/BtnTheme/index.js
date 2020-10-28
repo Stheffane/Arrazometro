@@ -24,7 +24,7 @@ const BtnTheme = () => {
   });
 
   return (
-    <div className="header-icon">
+    <div className="header-icon-theme">
       <label htmlFor="theme">
         <div className="icon-theme" />
       </label>

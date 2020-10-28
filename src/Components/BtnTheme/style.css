@@ -1,4 +1,4 @@
-.header-icon {
+.header-icon-theme {
   position: absolute;
   right: 26px;
   cursor: pointer;
@@ -43,4 +43,11 @@
 html[dark] .icon-theme {
   background-image: url("../../assets/icons/lua-nova.svg");
   background-size: 100%;
+}
+
+/* Media Query */
+@media (max-width: 870px) {
+  .header-icon-theme {
+    right: 0px;
+  }
 }

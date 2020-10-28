@@ -18,5 +18,19 @@ h1 {
 
 /* Dark Theme */
 html[dark] h1 {
-  color: #E4FE31;
+  color: #e4fe31;
+}
+
+/* Media Query */
+@media (min-width: 320px) and (max-width: 425px) {
+  header {
+    justify-content: flex-start;
+  }
+
+  h1 {
+    width: 120px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-left: 26px;
+  }
 }
