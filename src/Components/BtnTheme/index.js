@@ -1,6 +1,5 @@
 import React from "react";
-import Sun from "../../assets/icons/ensolarado.svg";
-import Moon from "../../assets/icons/lua-nova.svg";
+
 import "./style.css";
 
 const BtnTheme = () => {

@@ -1,5 +1,7 @@
 import React from "react";
 import Input from "../Input";
+import BtnRegister from "../BtnRegister";
+
 import "./style.css";
 
 const Footer = () => {
@@ -9,7 +11,7 @@ const Footer = () => {
         <div className="footer-form">
           <Input name="namePoc" placeholder="Qual o nome da poc?" />
           <Input name="nickPoc" placeholder="A poc tem nick?" />
-          <button className="btn-cadastrar">cadastrar Poc</button>
+          <BtnRegister />
         </div>
       </footer>
     </>
