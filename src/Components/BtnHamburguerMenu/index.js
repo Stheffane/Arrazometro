@@ -23,7 +23,7 @@ const BtnHamburguerMenu = () => {
   }
 
   return (
-    <div className="header-icon">
+    <div className="header-icon-menu">
       <button 
         class="menuButton" 
         active={menuButton}
@@ -33,13 +33,14 @@ const BtnHamburguerMenu = () => {
       </button>
 
       <div className={showSideBar}>
-        <BtnTheme />
+        <div className="icon-theme-menu">
+          <BtnTheme/>
+        </div>
+        
         <Input name="namePoc" placeholder="Qual o nome da poc?" />
         <Input name="nickPoc" placeholder="A poc tem nick?" />
         <button className="btn-cadastrar">cadastrar Poc</button>
-      </div>
-      
-      
+      </div>      
     </div>
   );
 };

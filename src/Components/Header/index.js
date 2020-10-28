@@ -1,7 +1,8 @@
 import React from "react";
-import "./style.css";
 import BtnTheme from "../BtnTheme";
 import BtnHamburguerMenu from "../BtnHamburguerMenu";
+
+import "./style.css";
 
 import useWindowDimensions from "../../hooks/useWindowDimentions"
 
