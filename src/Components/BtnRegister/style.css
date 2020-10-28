@@ -48,3 +48,10 @@ html[dark] .btn-cadastrar::before {
   background: #e179e1;
   color: #ffffff;
 }
+
+/* Media Query */
+@media (max-width: 870px) {
+  .btn-cadastrar {
+    width: 250px !important;
+  }
+}
