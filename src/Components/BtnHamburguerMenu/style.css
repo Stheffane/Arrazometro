@@ -1,0 +1,140 @@
+.header-icon {
+  position: absolute;
+  right: 26px;
+  cursor: pointer;
+}
+
+.input-dark-mode {
+  width: auto;
+  opacity: 0;
+}
+
+.icon-theme {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background-image: url("../../assets/icons/ensolarado.svg");
+  background-size: 100%;
+  transition: all 0.2s;
+}
+
+.icon-theme:hover {
+  transition: all 0.5s;
+  filter: drop-shadow(2px 2px 2px rgb(74, 103, 106, 0.2));
+  animation: rotate-icon 1.5s linear infinite;
+}
+
+@keyframes rotate-icon {
+  0%,
+  50%,
+  100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+}
+
+/* Menu Mobile */
+.menuButton {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.2s all cubic-bezier(0.4, -0.1, 0, 1.1);
+  position: relative;
+  z-index: 10;
+  background: none;
+  border: none;
+  outline: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuButton:hover .menu-icon:after {
+  width: 32px;
+  transition: 0.2s all cubic-bezier(0.4, -0.1, 0, 1.1);
+}
+
+.menu-icon {
+  width: 32px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  position: relative;
+  float: right;
+  transition: 0.2s all cubic-bezier(0.4, -0.1, 0, 1.1);
+}
+
+.menu-icon.active {
+  height: 0;
+}
+
+.menu-icon:before,
+.menu-icon:after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0;
+  transition: 0.2s all cubic-bezier(0.4, -0.1, 0, 1.1);
+}
+
+.menu-icon:before {
+  transform: rotate(0deg);
+  margin-top: -8px;
+  width: 32px;
+  transition: 0.2s all cubic-bezier(0.4, -0.1, 0, 1.1);
+}
+
+.menu-icon.active:before {
+  transform: rotate(-45deg);
+  margin-top: 0;
+}
+
+.menu-icon:after {
+  margin-top: 8px;
+  transform: rotate(0deg);
+  width: 32px;
+  transition: 0.2s all cubic-bezier(0.4, -0.1, 0, 1.1);
+}
+
+.menu-icon.active:after {
+  transform: rotate(45deg);
+  margin-top: 0;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 204, 182);
+  height: 100vh;
+  width: 100%;
+  max-width: 265px;
+  overflow-y: auto;
+  box-shadow: 0 0 30px -14px rgba(0, 0, 0, 0.1);
+  padding-left: 50px;
+  padding-top: 96px;
+  transition: all 0.3s;
+  transform: translateX(100%);
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar.show {
+  transform: translateX(0%);
+}
+
+/* Dark theme */
+html[dark] .icon-theme {
+  background-image: url("../../assets/icons/lua-nova.svg");
+  background-size: 100%;
+}

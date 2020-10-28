@@ -3,12 +3,18 @@ import Header from "../Header";
 import Footer from "../Footer";
 import Body from "../Body";
 
+import useWindowDimensions from "../../hooks/useWindowDimentions"
+
 const Layout = () => {
+  const { width } = useWindowDimensions();
+
   return (
     <>
       <Header />
       <Body />
-      <Footer />
+
+      { width >= 870 && <Footer />}
+      
     </>
   );
 };
