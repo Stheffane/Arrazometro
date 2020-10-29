@@ -1,12 +1,13 @@
 .header-icon-theme {
   position: absolute;
-  right: 26px;
+  right: 15px;
   cursor: pointer;
 }
 
 .input-dark-mode {
   width: auto;
-  opacity: 0;
+  /* opacity: 0; */
+  display: contents;
 }
 
 .icon-theme {
