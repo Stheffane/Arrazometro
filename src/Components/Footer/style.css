@@ -7,13 +7,13 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding: 0 7.5vw;
 }
 
 .footer-form {
-  width: 830px;
-  margin-right: 26px;
+  width: 750px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .btn-cadastrar {
@@ -58,16 +58,16 @@ footer {
 /* Dark theme */
 html[dark] footer {
   background-color: #484848;
-  border-top: 1px solid #CBAACB;
+  border-top: 1px solid #cbaacb;
 }
 
 html[dark] .btn-cadastrar {
   background-color: transparent;
-  border: 1px solid #E179E1;
-  color: #E179E1;
+  border: 1px solid #e179e1;
+  color: #e179e1;
 }
 
 html[dark] .btn-cadastrar::before {
-  background: #E179E1;
+  background: #e179e1;
   color: #ffffff;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import Frame from "../Frame";
 
+import "./style.css"; 
+
 const Body = () => {
   return (
     <section className="container">

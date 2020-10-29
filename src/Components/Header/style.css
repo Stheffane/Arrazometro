@@ -2,9 +2,10 @@ header {
   width: 100vw;
   height: 90px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: relative;
+  padding: 0 7.5vw;
 }
 
 h1 {
@@ -23,10 +24,6 @@ html[dark] h1 {
 
 /* Media Query */
 @media (min-width: 320px) and (max-width: 425px) {
-  header {
-    justify-content: flex-start;
-  }
-
   h1 {
     width: 120px;
     font-size: 20px;
