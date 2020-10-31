@@ -6,9 +6,13 @@ import "./style.css";
 const Body = () => {
   return (
     <section className="container">
-      {/* botão para esquerda*/}
+      
       <Frame />
-      {/*botão para direita*/}
+      <Frame />
+      <Frame />
+      <Frame />
+      <Frame />
+      
     </section>
   );
 };
