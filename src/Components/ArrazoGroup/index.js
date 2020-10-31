@@ -3,6 +3,7 @@ import "./style.css";
 import Arrazo from "../Arrazo";
 
 const ArrazoGroup = () => {
+  const 
   
   return (
     <div className="arrazo-group">

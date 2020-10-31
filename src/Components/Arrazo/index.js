@@ -7,9 +7,15 @@ const Arrazos = (props) => {
   const [ativo, setAtivo] = useState(false);
 
   return (
-    <button className={estilo} onClick={() => setAtivo(!ativo)} >
+    <button id="arrazando" className={estilo} onClick={() => setAtivo(!ativo)} >
 
-      { ativo && <img className="arrazo" src={Arrazo} alt="caracteres que simulam um rosto sorrindo"/>}
+      { ativo && 
+        <img 
+        className="arrazo" 
+        src={Arrazo} 
+        alt="caracteres que simulam um rosto sorrindo"
+        />
+      }
       
     </button>
   );
