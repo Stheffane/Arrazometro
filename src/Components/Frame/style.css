@@ -3,12 +3,12 @@
   height: 405px;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 1px 1px 15px #bcb8b8;
+  box-shadow: 1px 1px 15px #bcb8b848;
 }
 
 /* Dark Theme */
 html[dark] .poc-frame {
   background-color: transparent;
   box-shadow: none;
-  border: 1px solid #CBAACB;
+  border: 1px solid #cbaacb;
 }

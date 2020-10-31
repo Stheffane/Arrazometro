@@ -9,7 +9,7 @@ const Frame = () => {
   return (
     <div className="poc-frame">
       <BtnDelete />
-      <Name />
+      <Name nome="Pocona"/>
       <ArrazoGroup />
       <AzzaroSupremo />
     </div>

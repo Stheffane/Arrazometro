@@ -1,8 +1,9 @@
-#arrazo-wrapper {
+.arrazo-wrapper {
   width: 70px;
   height: 50px;
   background-color: transparent;
   border-radius: 5px;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,8 +12,8 @@
   transition: all 0.5s;
 }
 
-#arrazo-wrapper::before {
-  content: '';
+.arrazo-wrapper::before {
+  content: "";
   width: 35px;
   height: 8px;
   position: absolute;
@@ -21,43 +22,32 @@
   transition: all 0.5s;
 }
 
-#arrazo-wrapper a {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: block;
-}
-
-#arrazo {
+.arrazo {
   height: 40px;
-  display: none;
-
-}
-#arrazo:target {
   display: block;
 }
 
 .azul {
-  border: 1px solid #5AE5FB;
+  border: 1px solid #5ae5fb;
 }
 
 .roxo {
-  border: 1px solid #CBAACB;
+  border: 1px solid #cbaacb;
 }
 
 .rosa {
-  border: 1px solid #F3B0C3;
+  border: 1px solid #f3b0c3;
 }
 
 .amarelo {
-  border: 1px solid #E4FE31;
+  border: 1px solid #e4fe31;
 }
 
 /* Dark Theme */
-html[dark] #arrazo-wrapper {
-  border: 1px solid #BCB8B8;
+html[dark] .arrazo-wrapper {
+  border: 1px solid #bcb8b8;
 }
 
-html[dark] #arrazo-wrapper::before {
+html[dark] .arrazo-wrapper::before {
   background-color: #484848;
 }

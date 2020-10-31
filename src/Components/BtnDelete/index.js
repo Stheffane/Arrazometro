@@ -6,7 +6,7 @@ const BtnDelete = () => {
   return (
     <div className="icon-close">
       <button id="delete">
-        <img src={Close} />
+        <img src={Close} alt="caractere X para sibolizar a opção de excluir o card de arrazos"/>
       </button>
     </div>
   );

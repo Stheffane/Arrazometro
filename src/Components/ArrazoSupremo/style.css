@@ -2,7 +2,7 @@
   width: 95px;
   height: 70px;
   background-color: transparent;
-  border: 1px solid #F3B0C3;
+  border: 1px solid #f3b0c3;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 .arrazao-wrapper::before {
-  content: '';
+  content: "";
   width: 55px;
   height: 8px;
   position: absolute;
@@ -30,18 +30,14 @@
   display: block;
 }
 
-#arrazao {
+.arrazao {
   height: 60px;
-  display: none;
-
-}
-#arrazao:target {
   display: block;
 }
 
 /* Dark Theme */
 html[dark] .arrazao-wrapper {
-  border: 1px solid #BCB8B8;
+  border: 1px solid #bcb8b8;
 }
 
 html[dark] .arrazao-wrapper::before {
