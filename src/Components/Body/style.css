@@ -1,7 +1,29 @@
 .container {
   width: 85vw;
   margin: 0 auto;
+  padding-bottom: 80px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media (max-width: 870px) {
+  .container {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 710px) {
+  .container {
+    width: 65vw;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 0;
+  }
 }
