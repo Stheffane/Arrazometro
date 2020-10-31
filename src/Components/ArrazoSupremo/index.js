@@ -4,10 +4,9 @@ import Arrazao from "../../assets/icons/Arrazao.svg";
 
 const ArrazoSupremo = () => {
   return (
-    <div className="arrazao-wrapper">
-      <a href="#arrazao"></a>
-      <img id="arrazao" src={Arrazao} />
-    </div>
+    <button className="arrazao-wrapper">
+      <img id="arrazao" src={Arrazao} alt="caracteres que simulam um rosto usando uma coroa e sorrindo"/>
+    </button>
   );
 };
 

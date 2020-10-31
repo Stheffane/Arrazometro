@@ -28,7 +28,7 @@ const BtnTheme = () => {
       <label htmlFor="theme">
         <div className="icon-theme" />
       </label>
-      <input id="theme" type="checkbox" class="input-dark-mode" />
+      <input id="theme" type="checkbox" className="input-dark-mode" />
     </div>
   );
 };

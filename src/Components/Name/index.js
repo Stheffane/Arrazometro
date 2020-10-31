@@ -6,16 +6,16 @@ const Name = (props) => {
   const [supremo, setSupremo] = useState("name");
 
   useEffect(() => {
-    changeClass();
+    changeEstilo();
   });
 
-  function changeClass() {
+  function changeEstilo() {
     pocArrazou
       ? setSupremo("name poc-arrazada")
       : setSupremo("name poc-arrazando");
   }
 
-  return <h2 className={supremo}>Pocona</h2>;
+  return <h2 className={supremo}>{props.nome}</h2>;
 };
 
 export default Name;
